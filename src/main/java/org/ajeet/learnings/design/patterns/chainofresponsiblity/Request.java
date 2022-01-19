@@ -1,0 +1,15 @@
+package org.ajeet.learnings.design.patterns.chainofresponsiblity;
+
+public class Request {
+    private final String userName;
+    private final String password;
+
+    public Request(String userName, String password) {
+        this.userName = userName;
+        this.password = password;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+}
